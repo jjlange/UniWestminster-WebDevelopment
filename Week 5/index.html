@@ -1,0 +1,92 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lottery Simulator</title>
+        <style>
+            .bg-green { 
+                background-color: #4CAF50; 
+            }
+    
+            .bg-red { 
+                background-color: red;
+            }
+
+            .bg-orange { 
+                background-color: orange;
+            }
+
+            .bg-purple { 
+                background-color: purple;
+            }
+
+            .bg-white { 
+                background-color: white;
+            }
+
+            .text-white { 
+                color: white;
+            }
+
+            .text-black { 
+                color: black;
+            }
+    
+            .container {
+                width: 1000px;
+                font-family: "Helvetica Neue";
+                margin: 50px;
+            }
+
+            .circle {
+                font-size: 1rem;
+                width: 1rem;
+                padding: 1rem;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+
+            }
+    
+            .button {
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        
+        </style>
+    </head>
+    <body class="container bg-green text-white">
+        <h1>Lottery Simulator</h1>
+        <p>
+            Your chosen numbers:
+            <span id="displayUserNum1" class="circle bg-white text-black"></span>
+            <span id="displayUserNum2" class="circle bg-white text-black"></span>
+            <span id="displayUserNum3" class="circle bg-white text-black"></span>
+            <span id="displayUserNum4" class="circle bg-white text-black"></span>
+            <span id="displayUserNum5" class="circle bg-white text-black"></span>
+            <span id="displayUserNum6" class="circle bg-white text-black"></span>
+        </p>
+        <p>
+            Draw Numbers: <br /><br />
+            <span id="displayRandomNum1" class="circle bg-white text-black"></span>
+            <span id="displayRandomNum2" class="circle bg-white text-black"></span>
+            <span id="displayRandomNum3" class="circle bg-white text-black"></span>
+            <span id="displayRandomNum4" class="circle bg-white text-black"></span>
+            <span id="displayRandomNum5" class="circle bg-white text-black"></span>
+            <span id="displayRandomNum6" class="circle bg-white text-black"></span>
+            <span id="displayRandomNum7" class="circle bg-red text-white"></span>
+        </p>
+        <hr />
+        <address>langejustin@icloud.com</address>
+        <b>Thu 18 Feb - 11:16:54 AM</b>
+    </body>
+    <script type="text/javascript" src="core.js"></script>
+</html>
